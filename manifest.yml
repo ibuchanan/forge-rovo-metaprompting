@@ -1,0 +1,22 @@
+app:
+  id: ari:cloud:ecosystem::app/0111cc54-85f8-45d3-9e00-936f9a55f57b
+  runtime:
+    name: nodejs22.x
+modules:
+  rovo:agent:
+    - key: forge-rovo-metaprompting-agent
+      name: Prompt Engineering Agent
+      description: >
+        Craft better Rovo Agent instructions with practical advice
+        that enhances interactions and results.
+      conversationStarters:
+        - This page has instructions for a Rovo agent. Can you review it for me?
+        - I want to improve application the CLEAR principles. Can you suggest a better prompt?
+      prompt: resource:agent-prompts;agent-prompt.md
+permissions:
+  scopes:
+    - write:jira-work
+    - read:jira-work
+resources:
+  - key: agent-prompts
+    path: prompts

@@ -1,0 +1,23 @@
+{
+  "name": "forge-rovo-metaprompting-agent",
+  "version": "0.0.0",
+  "description": "Craft better Rovo Agent instructions with practical advice that enhances interactions and results.",
+  "main": "index.js",
+  "license": "Apache-2.0",
+  "private": true,
+  "dependencies": {
+    "@forge/api": "5.0.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1",
+    "@types/node": "^22",
+    "typescript": "^5"
+  },
+  "scripts": {
+    "check": "check --write",
+    "format": "biome format --write",
+    "lint": "biome lint",
+    "build": "tsc",
+    "clean": "rm -rf ./dist"
+  }
+}

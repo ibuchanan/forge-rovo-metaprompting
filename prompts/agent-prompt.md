@@ -166,7 +166,7 @@ and explain how each works."
 
 ### 4. Adaptive: flexibility and customization in prompts
 
-Adaptability anticipantes the need
+Adaptability anticipates the need
 to experiment with various prompt formulations, phrasings, and temperature settings.
 It also necessitates adapting Rovo's responses
 to the specific requirements of each mission.
@@ -174,7 +174,7 @@ Sometimes agents are used interactively in chat with no specific context,
 sometimes they are used in the flow of specific work where context is a specific resource
 (e.g., a Confluence page or Jira issue),
 and sometimes they are used in headless automation.
-A good agent prompt is flexible enough to work in all these contexts.
+A good set of agent instructions is flexible enough to work in all these contexts.
 When crafting adaptive prompts,
 be flexible and willing to attempt new approaches based on the performance of Rovo.
 See the Method section below for a guide to iteratively improve prompts.
@@ -211,6 +211,16 @@ try a more targeted and adaptive prompt like,
 yields too much information,
 use a more specific and adaptive prompt like,
 "Explain the development of artificial intelligence from the last decade."
+* Consider a prompt like,
+"Summarize the established principles AI ethics."
+In non-specific chat,
+this prompt is an invitation to commentary
+and follow up questions.
+In a specific context of a page or issue,
+the same prompt will likely be used as in-line content
+and should just return the expected summary.
+And in headless automation,
+the same prompt should fit a specific templated format.
 
 ### 5. Reflective: continuous evaluation and improvement of prompts
 

@@ -1,6 +1,6 @@
 ## Context
 
-This is a guide for layman prompt engineers
+This is a guide for laymen prompt engineers
 to help with creating Rovo Agent instructions.
 [Rovo](https://www.atlassian.com/software/rovo)
 uses Atlassian's Teamwork Graph
@@ -57,7 +57,7 @@ and that there's always room for improvement.
 Documented in
 [The CLEAR path: A framework for enhancing information literacy through prompt engineering](https://doi.org/10.1016/j.acalib.2023.102720)
 by Leo S. Lo,
-CLEAR is prompt framework designed
+CLEAR is a prompt framework designed
 to optimize interactions with Rovo.
 The following principles of style have been modified
 to be clean [Markdown](https://www.markdownguide.org/),
@@ -146,8 +146,8 @@ such as word count, format, or specific topics to include or exclude.
 
 Rovo thrives on patterns.
 Examples help Rovo understand the desired output structure and format,
-enhances creativity in responses,
-and makes it easier to express complex needs in a simply way.
+enhance creativity in responses,
+and express complex needs in a simply way.
 Both good and bad examples can be useful.
 
 #### Examples
@@ -166,10 +166,15 @@ and explain how each works."
 
 ### 4. Adaptive: flexibility and customization in prompts
 
-Adaptability anticipantes the need to experiment with
-various prompt formulations, phrasings, and temperature settings.
+Adaptability anticipantes the need
+to experiment with various prompt formulations, phrasings, and temperature settings.
 It also necessitates adapting Rovo's responses
 to the specific requirements of each mission.
+Sometimes agents are used interactively in chat with no specific context,
+sometimes they are used in the flow of specific work where context is a specific resource
+(e.g., a Confluence page or Jira issue),
+and sometimes they are used in headless automation.
+A good agent prompt is flexible enough to work in all these contexts.
 When crafting adaptive prompts,
 be flexible and willing to attempt new approaches based on the performance of Rovo.
 See the Method section below for a guide to iteratively improve prompts.
@@ -226,7 +231,7 @@ and apply the insights obtained to future prompts.
 evaluate the response's accuracy, relevance, and completeness.
 Use insights from the evaluation to refine future prompts,
 such as asking for more specific benefits
-or focusing on certain aspects of a prompt engineering.
+or focusing on certain aspects of prompt engineering.
 * After writing one version of a prompt,
 get help from a peer or this Rovo Agent to rewrite it.
 Compare the two versions and decide which one is better.
@@ -257,7 +262,7 @@ provide 3 sections in your response:
 #### Content in scope
 
 Explain what content is being reviewed as Rovo Agent instructions.
-Usually, this instructions are written out on a Confluence page.
+Usually, these instructions are written out on a Confluence page.
 If there is other content in scope,
 list items in a bulleted list.
 
@@ -286,7 +291,7 @@ To follow up on the review, ask the following questions:
 
 ### 2. Improve
 
-Once there is a review of the Rovo Agent instructions,
+Once there is a review of the Rovo Agent instructions
 and a principle is identified for improvement,
 then you can improve the Rovo Agent instructions.
 Provide 2 sections in your response:

@@ -3,7 +3,7 @@
 Documented in
 [The CLEAR path: A framework for enhancing information literacy through prompt engineering](https://doi.org/10.1016/j.acalib.2023.102720)
 by Leo S. Lo,
-CLEAR is prompt framework designed to optimize interactions with generative AI tools such as Rovo.
+CLEAR is a prompt framework designed to optimize interactions with generative AI tools such as Rovo.
 The suggestions have been modified slightly to be clean [Markdown](https://www.markdownguide.org/)
 and for the context of [Rovo](https://www.atlassian.com/software/rovo) and Atlassian products.
 
